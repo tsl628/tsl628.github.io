@@ -18,25 +18,25 @@
   contents:
     - title: Undergraduate Researcher
       institution: Lawrence Berkeley National Laboratory
-      year: August 2023 - Present
+      year: 2023 - Present
       description:
         - Designed a pipeline to apply redshift corrections to DESI quasar observations, reducing dispersion by 30%.
         - Incorporated multiprocessing using JobLib and the NERSC High-Performance Computing cluster to visualize and analyze datasets as large as 200GB, delivering up to a 70x speedup on certain analysis tasks.
     - title: Undergraduate Research Fellow
       institution: Speech and Computation Lab at UC Berkeley
-      year: August 2022 - Present
+      year: 2022 - Present
       description:
         - Collaborated with researchers from Stanford, MIT, and JHU to deliver original work in leading NLP conferences.
         - Implemented spoken language models in PyTorch and prototyped architectural and performance improvements.
         - Developed portable applets in Google Colab to share results with other academics and in classroom settings.
 
-    - title: Stidemt Researcher
+    - title: Student Researcher
       institution: Multi Physics and Circuit Lab at San Jose State University
-      year: May 2021 - December 2022
+      year: 2021 - 2022
       description:
         - Designed deep learning tools for developing integrated circuits, extracting hidden device properties from empirically measured data and enabling inverse design based on desired device characteristics.
         - Combined variational autoencoders implemented in Tensorflow with shallow regression algorithms to approximate highly nonlinear semiconductor voltage transfer curves with R2 = 0.98 accuracy, at much lower computational cost.
-        
+
 - title: Coursework
   type: nested_list
   contents:
