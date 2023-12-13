@@ -2,31 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Thomas Lu
     - name: Languages
-      value: English, German
+      value: English, Mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: BA Physics and Computer Science
+      institution: University of California, Berkeley
+      year: 2022-2026
 
 - title: Experience
   type: time_table
@@ -61,37 +46,29 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Coursework
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Computer Science
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - CS61A Structure and Interpretation of Computer Programs
+        - CS61B Data Structures
+        - CS61C Great Ideas in Computer Architecture
+        - CS70 Discrete Math and Probability Theory
+        - CS170 Efficient Algorithms and Intractable Problems
+        - CS188 Artificial Intelligence
+        - CS189 Introduction to Machine Learning (SP24)
+        - EECS127 Optimization Models in Engineering (SP24)
+    - title: Physics
+        items:
+          - Physics 5A Introductory Mechanics and Relativity
+          - Physics 5B/BL Introductory Electromagnetism, Waves, and Optics (with laboratory component)
+          - Physics 5C/CL Introductory Thermodynamics and Quantum Mechanics (with laboratory component)
+          - Physics 137A Quantum Mechanics (SP24)
+          - Physics 110A Electromagnetism and Optics (SP24)
+          - Physics 111A Instrumentation Laboratory (SP24)
+    - title: Math
+        items:
+          - UM110 Real Analysis (Stanford ULO)
+          - UM106 Complex Analysis (Stanford ULO)
+          - Math 110 Second Course in Linear Algebra
