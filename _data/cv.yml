@@ -60,15 +60,15 @@
         - CS189 Introduction to Machine Learning (SP24)
         - EECS127 Optimization Models in Engineering (SP24)
     - title: Physics
-        items:
-          - Physics 5A Introductory Mechanics and Relativity
-          - Physics 5B/BL Introductory Electromagnetism, Waves, and Optics (with laboratory component)
-          - Physics 5C/CL Introductory Thermodynamics and Quantum Mechanics (with laboratory component)
-          - Physics 137A Quantum Mechanics (SP24)
-          - Physics 110A Electromagnetism and Optics (SP24)
-          - Physics 111A Instrumentation Laboratory (SP24)
+      items:
+        - Physics 5A Introductory Mechanics and Relativity
+        - Physics 5B/BL Introductory Electromagnetism, Waves, and Optics (with laboratory component)
+        - Physics 5C/CL Introductory Thermodynamics and Quantum Mechanics (with laboratory component)
+        - Physics 137A Quantum Mechanics (SP24)
+        - Physics 110A Electromagnetism and Optics (SP24)
+        - Physics 111A Instrumentation Laboratory (SP24)
     - title: Math
-        items:
-          - UM110 Real Analysis (Stanford ULO)
-          - UM106 Complex Analysis (Stanford ULO)
-          - Math 110 Second Course in Linear Algebra
+      items:
+        - UM110 Real Analysis (Stanford ULO)
+        - UM106 Complex Analysis (Stanford ULO)
+        - Math 110 Second Course in Linear Algebra
