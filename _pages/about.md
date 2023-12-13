@@ -19,4 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am a second-year undergraduate studying Physics and Computer Science at UC Berkeley. I am part of the [Berkeley Speech and Computation Lab](https://twitter.com/BerkeleySCLab), performing research under the supervision of [Prof. Gašper Beguš](https://gbegus.github.io/).
 
-Broadly speaking, my interests are in deep learning for speech and computational linguistics, particularly with regards to interpretability, and in the applications of deep learning in scientific computing. My current work involves studying the syntactical properties of GANs trained on 
+Broadly speaking, my interests are in deep learning for speech and computational linguistics, particularly with regards to interpretability, and in the applications of deep learning toward scientific computing. My current work involves studying the syntactical properties of GANs trained to synthesize human speech, both directly and indirectly through articulator models. I also work on projects to benchmark the capabilities of LLMs, primarily ChatGPT and Whisper.
+
+Prior to joining the Speech and Computation Lab, I 
