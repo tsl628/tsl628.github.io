@@ -6,7 +6,7 @@ title: Thomas Lu # the website title (if blank, full name will be used instead)
 first_name: Thomas
 middle_name: 
 last_name: Lu
-email: thomaslu@berkeley.edu
+email:
 description: # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords:  # add your own keywords or leave empty
