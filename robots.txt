@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: *
+Disallow: /
 
 Sitemap: https://tsl628.github.io/sitemap.xml
