@@ -18,7 +18,7 @@
   contents:
     - title: Undergraduate Researcher
       institution: Lawrence Berkeley National Laboratory
-      year: 2023 - Present
+      year: 2023 - 2023
       description:
         - Designed a pipeline to apply redshift corrections to DESI quasar observations, reducing dispersion by 30%.
         - Incorporated multiprocessing using JobLib and the NERSC High-Performance Computing cluster to visualize and analyze datasets as large as 200GB, delivering up to a 70x speedup on certain analysis tasks.
@@ -29,7 +29,6 @@
         - Collaborated with researchers from Stanford, MIT, and JHU to deliver original work in leading NLP conferences.
         - Implemented spoken language models in PyTorch and prototyped architectural and performance improvements.
         - Developed portable applets in Google Colab to share results with other academics and in classroom settings.
-
     - title: Student Researcher
       institution: Multi Physics and Circuit Lab at San Jose State University
       year: 2021 - 2022
