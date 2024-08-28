@@ -16,19 +16,24 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Undergraduate Research Fellow
+      institution: Speech and Computation Lab at UC Berkeley
+      year: 2022 - Present
+      description:
+        - Developed deep learning models of human speech using Generative Adversarial Networks (GANs), incorporating articulatory models to create realistic models that parallel human cognitive function (refer to publications).
+        - Implemented spoken language models in PyTorch and developed architectural and performance improvements.
+    - title: Camera Systems Engineering Intern
+      institution: Rivian Automotive, Inc.
+      year: Summer 2024
+      description:
+        - Developed an in-house automated tool for computing image quality metrics using Python and OpenCV, matching leading commercial tools (i.e. Imatest, DXOMARK) while greatly increasing image throughput.
+        - Contributed to ISP tuning for in-house camera drivers on the NVIDIA Jetson Orin platform, delivering improvements on metrics such as sharpness, white balance, noise, and LED flicker.
     - title: Undergraduate Researcher
       institution: Lawrence Berkeley National Laboratory
       year: 2023 - 2023
       description:
         - Designed a pipeline to apply redshift corrections to DESI quasar observations, reducing dispersion by 30%.
         - Incorporated multiprocessing using JobLib and the NERSC High-Performance Computing cluster to visualize and analyze datasets as large as 200GB, delivering up to a 70x speedup on certain analysis tasks.
-    - title: Undergraduate Research Fellow
-      institution: Speech and Computation Lab at UC Berkeley
-      year: 2022 - Present
-      description:
-        - Collaborated with researchers from Stanford, MIT, and JHU to deliver original work in leading NLP conferences.
-        - Implemented spoken language models in PyTorch and prototyped architectural and performance improvements.
-        - Developed portable applets in Google Colab to share results with other academics and in classroom settings.
     - title: Student Researcher
       institution: Multi Physics and Circuit Lab at San Jose State University
       year: 2021 - 2022
@@ -36,6 +41,17 @@
         - Designed deep learning tools for developing integrated circuits, extracting hidden device properties from empirically measured data and enabling inverse design based on desired device characteristics.
         - Combined variational autoencoders implemented in Tensorflow with shallow regression algorithms to approximate highly nonlinear semiconductor voltage transfer curves with R2 = 0.98 accuracy, at much lower computational cost.
 
+- title: Teaching
+  type: nested_list
+  contents:
+    - title: CS61C Great Ideas in Computer Architecture
+      items:
+        - Academic Intern (Fall 2023)
+    - title: CS170 Efficient Algorithms and Intractable Problems
+      items:
+        - Reader (Spring 2024)
+        - Tutor/UCS1 (Fall 2024)
+        
 - title: Coursework
   type: nested_list
   contents:
