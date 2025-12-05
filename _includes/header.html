@@ -61,6 +61,15 @@
                 </a>
               </li>
               {%- endif %}
+              
+              <!-- Publications → Google Scholar (independent of any page) -->
+              <li class="nav-item">
+                <a class="nav-link"
+                   href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+                   target="_blank" rel="noopener">
+                  publications
+                </a>
+              </li>
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -85,24 +94,11 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                {%- if p.title == 'publications' %}
-                <!-- Publications → Google Scholar -->
-                <a class="nav-link"
-                   href="https://https://scholar.google.com/citations?view_op=list_works&user=ORDBRuMAAAAJ"
-                   target="_blank" rel="noopener">
-                  {{ p.title }}
+                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-                {%- else %}
-                <a class="nav-link" href="{{ p.url | relative_url }}">
-                  {{ p.title }}
-                  {%- if page.title == p.title -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-                {%- endif %}
               </li>
               {%- endif -%}
               {%- endif -%}
