@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a PhD student at the University of Michigan, advised by [Gabriel Poesia](https://gpoesia.com/). My research interests are broady in the areas of AI for math, formal reasoning, and reinforcement learning. This summer, I interned at [Pramaana Labs](https://www.pramaanalabs.ai/), working on post-training for an agentic formal reasoning LLM. 
+Hello! I'm a PhD student at the University of Michigan, advised by [Gabriel Poesia](https://gpoesia.com/). My research interests are broadly in the areas of AI for math, formal reasoning, and reinforcement learning. This summer, I interned at [Pramaana Labs](https://www.pramaanalabs.ai/), working on post-training for an agentic formal reasoning LLM. 
 
 I did my undergraduate work at UC Berkeley, where I was very fortunate to have been advised by Gireeja Ranade and Gasper Begus. At Berkeley, I worked on LeanTutor, a formally verified math co-reasoning system that recieved a grant from the [Renaissance Philanthropy AI for Math Fund](https://www.renaissancephilanthropy.org/leantutor-a-tutor-for-undergraduate-mathematics-proofs). I was also the recipient of the 2026 [EECS Departmental Citation](https://www2.eecs.berkeley.edu/Students/Awards/2/).
 
