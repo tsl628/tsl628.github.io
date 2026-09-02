@@ -202,9 +202,9 @@ blockquote {
     margin-right: 0;
 
     img {
-      height: 280px;
+      height: min(90vw, 420px);
       object-fit: cover;
-      object-position: center 38%;
+      object-position: center top;
     }
   }
 }
