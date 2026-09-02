@@ -26,7 +26,9 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
-              alt=page.profile.image
+              alt=page.profile.image_alt
+              width=1750
+              height=1956
               cache_bust=true -%}
             {% endif -%}
             {%- if page.profile.more_info %}

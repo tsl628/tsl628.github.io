@@ -164,6 +164,10 @@ blockquote {
 .profile {
   width: 100%;
 
+  .z-depth-1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -192,6 +196,19 @@ blockquote {
       p {
         display: block;
       }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile {
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+      height: 280px;
+      object-fit: cover;
+      object-position: center 38%;
     }
   }
 }
