@@ -211,6 +211,8 @@ exclude:
   - README.md
   - reports
   - vendor
+  - _pages/cv.md
+  - _pages/publications.md
   - _posts/
 keep_files:
   - CNAME
