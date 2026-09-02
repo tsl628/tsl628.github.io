@@ -63,7 +63,7 @@ og_image: https://tsl628.github.io/assets/img/prof_pic_alt.jpg # The site-wide (
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: thoamswilliams # your GitHub user name
+github_username: tsl628 # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -196,7 +196,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages/about.md']
+include: ['_pages']
 exclude:
   - bin
   - CONTRIBUTING.md
@@ -211,8 +211,6 @@ exclude:
   - README.md
   - reports
   - vendor
-  - _pages/cv.md
-  - _pages/publications.md
   - _posts/
 keep_files:
   - CNAME
@@ -222,6 +220,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-link-attributes
+  - jekyll/scholar
 
 # Sitemap settings
 defaults:
@@ -326,3 +325,8 @@ enable_progressbar:         false  # enables a horizontal progress bar linked to
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+mdb:
+  version: "4.20.0"
+  integrity:
+    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
