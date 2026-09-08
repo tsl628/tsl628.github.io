@@ -1,3 +1,33 @@
+# Local editorial preview
+
+This branch contains a personal-site design mockup. Start Docker Desktop, then
+run these commands from this worktree in PowerShell:
+
+```powershell
+docker compose -p thomas-editorial up --build -d
+```
+
+Open http://localhost:4322. Source edits rebuild automatically and refresh the
+browser. The preview and live-reload ports bind only to localhost. Port 4322
+avoids the existing service on port 8080. No GitHub push is required.
+
+```powershell
+docker compose -p thomas-editorial logs --tail 30
+docker compose -p thomas-editorial restart  # after editing _config.yml
+docker compose -p thomas-editorial down    # stop the preview
+```
+
+The container uses Ruby 3.2.2 (matching this repository's GitHub build) and the
+checked-in Gemfile.lock. After changing dependencies, update the lockfile and
+rebuild the image. Generated output goes to the ignored `_site/` directory.
+Legacy Sass emits deprecation warnings, but builds successfully. Bootstrap/MDB
+still loads some assets from a CDN; typography uses local system fonts.
+
+Design changes are in `_sass/_editorial.scss` and the about/header templates.
+The biography and the navigation labels and destinations are preserved.
+
+---
+
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'

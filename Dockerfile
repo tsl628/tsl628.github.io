@@ -1,41 +1,12 @@
-FROM ubuntu:latest
-ENV DEBIAN_FRONTEND noninteractive
+FROM ruby:3.2.2-slim
 
-Label MAINTAINER Amir Pourmand
-
-RUN apt-get update -y && apt-get install -y --no-install-recommends \
-    locales \
-    imagemagick \
-    ruby-full \
-    build-essential \
-    zlib1g-dev \
-    jupyter-nbconvert \
-    inotify-tools procps && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
-
-
-RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen
-
-
-ENV LANG=en_US.UTF-8 \
-    LANGUAGE=en_US:en \
-    LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
-
-# install jekyll and dependencies
-RUN gem install jekyll bundler
-
-RUN mkdir /srv/jekyll
-
-ADD Gemfile /srv/jekyll
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /srv/jekyll
+COPY Gemfile Gemfile.lock ./
+RUN gem install bundler -v 2.4.22 --no-document \
+    && bundle _2.4.22_ install
 
-RUN bundle install --no-cache
-# && rm -rf /var/lib/gems/3.1.0/cache
-EXPOSE 8080
-
-COPY bin/entry_point.sh /tmp/entry_point.sh
-
-CMD ["/tmp/entry_point.sh"]
+EXPOSE 8080 35729
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "8080", "--livereload", "--force_polling"]

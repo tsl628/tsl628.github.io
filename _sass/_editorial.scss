@@ -1,0 +1,156 @@
+// Personal, editorial variation on the existing al-folio theme.
+:root {
+  --global-bg-color: #faf9f6;
+  --global-text-color: #262824;
+  --global-text-color-light: #62675f;
+  --global-theme-color: #365f63;
+  --global-hover-color: #26494d;
+  --global-divider-color: #d8dbd3;
+  --global-card-bg-color: #faf9f6;
+  --global-code-bg-color: #eeefea;
+  --editorial-sans: Arial, Helvetica, sans-serif;
+}
+
+html[data-theme='dark'] {
+  --global-bg-color: #202421;
+  --global-text-color: #e9e8e0;
+  --global-text-color-light: #b3b9b0;
+  --global-theme-color: #9dc5c6;
+  --global-hover-color: #c2dddd;
+  --global-divider-color: #434c45;
+  --global-card-bg-color: #272d28;
+  --global-code-bg-color: #2d342f;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+
+body > .container { margin-top: 3.4rem !important; }
+.container { padding-right: 24px; padding-left: 24px; }
+
+.navbar {
+  max-width: calc(860px - 48px);
+  margin: 0 auto;
+  padding: 1rem 0 .8rem;
+  opacity: 1;
+  > .container { padding: 0; }
+}
+
+.navbar.navbar-light {
+  font-family: var(--editorial-sans);
+  font-size: .85rem;
+  .navbar-brand { font-family: Georgia, 'Times New Roman', serif; }
+  .navbar-nav { align-items: center; gap: 1.3rem; }
+  .navbar-nav .nav-item .nav-link {
+    padding: .4rem 0;
+    color: var(--global-text-color-light);
+  }
+  .navbar-nav .nav-item.active > .nav-link {
+    color: var(--global-text-color);
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: var(--global-theme-color);
+    text-underline-offset: .45em;
+    text-decoration-thickness: 1px;
+  }
+  .navbar-nav .nav-item .nav-link:hover { color: var(--global-hover-color); }
+}
+
+#light-toggle {
+  min-width: 36px;
+  min-height: 36px;
+  padding: 0;
+  i { padding: 0; font-size: .9rem; }
+}
+
+.about-page {
+  .post-header { margin-bottom: 1.8rem; }
+  .post-title { margin: 0; font-size: 2.4rem; letter-spacing: -.035em; }
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 238px;
+    gap: 2.75rem;
+    align-items: start;
+  }
+  .about-grid-text-only { grid-template-columns: minmax(0, 1fr); }
+  .about-copy { min-width: 0; }
+  .about-copy > p { margin: 0 0 1.25rem; }
+  .about-copy a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .17em;
+    text-decoration-color: var(--global-divider-color);
+    &:hover { color: var(--global-hover-color); text-decoration-color: currentColor; }
+  }
+  .profile {
+    width: auto;
+    margin: .3rem 0 0;
+    figure { margin: 0; }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--global-divider-color);
+      box-shadow: none;
+    }
+  }
+  .about-contact {
+    margin-top: 1.75rem;
+    padding-top: .9rem;
+    border-top: 1px solid var(--global-divider-color);
+    font-family: var(--editorial-sans);
+    font-size: .8rem;
+    p { margin: 0; color: var(--global-text-color-light); }
+  }
+}
+
+footer.sticky-bottom {
+  max-width: calc(860px - 48px);
+  margin: 3rem auto 0 !important;
+  padding: 1.2rem 0 2rem;
+  font-family: var(--editorial-sans);
+  font-size: .72rem;
+  color: var(--global-text-color-light);
+  .container { padding: 0; color: inherit; }
+}
+
+@media (max-width: 859px) {
+  .navbar, footer.sticky-bottom { margin-right: 24px !important; margin-left: 24px !important; }
+}
+
+@media (max-width: 700px) {
+  body > .container { margin-top: 2.4rem !important; }
+  .about-page {
+    .about-grid { grid-template-columns: minmax(0, 1fr); gap: 1.8rem; }
+    .profile { max-width: 280px; margin: 0; }
+    .post-title { font-size: 2.15rem; }
+    .post-header { margin-bottom: 1.5rem; }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar.navbar-light .navbar-nav {
+    align-items: flex-end;
+    gap: .35rem;
+    padding-top: .75rem;
+    .nav-link { min-height: 44px; }
+  }
+  .navbar-toggler { min-width: 44px; min-height: 44px; }
+  #light-toggle { min-width: 44px; min-height: 44px; }
+}
