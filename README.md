@@ -28,8 +28,9 @@ The biography and the publications/CV destinations are preserved. The design
 uses a light-only near-white/blue-teal palette, contact beneath the name, and a
 large unframed BattleBots photograph aligned with the biography. Body text is
 18px; contact/navigation are 15px and the footer is 13px. Saved dark-mode preferences are no longer applied. Name, contact, and navigation
-share one header. The publications and CV links are always visible and use the same blue/underline
-treatment as prose links, without icons or format labels. They sit below the contact on mobile; the header scrolls naturally with the page.
+share one header. The publications and CV links are always visible and use neutral text with
+matching underlines, without icons or format labels. Prose links use blue text
+and matching blue underlines. They sit below the contact on mobile; the header scrolls naturally with the page.
 
 ---
 

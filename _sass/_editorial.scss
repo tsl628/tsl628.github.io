@@ -77,12 +77,12 @@ body > .container { margin-top: 2rem !important; }
     display: inline-flex;
     align-items: center;
     min-height: 44px;
-    color: var(--global-theme-color);
+    color: var(--global-text-color-light);
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: .17em;
-    text-decoration-color: var(--global-divider-color);
-    &:hover { color: var(--global-hover-color); text-decoration-color: currentColor; }
+    text-decoration-color: currentColor;
+    &:hover { color: var(--global-text-color); text-decoration-color: currentColor; }
   }
 
 }
@@ -101,7 +101,7 @@ body > .container { margin-top: 2rem !important; }
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: .17em;
-    text-decoration-color: var(--global-divider-color);
+    text-decoration-color: currentColor;
     &:hover { color: var(--global-hover-color); text-decoration-color: currentColor; }
   }
   .profile {
