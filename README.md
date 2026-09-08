@@ -24,12 +24,12 @@ Legacy Sass emits deprecation warnings, but builds successfully. Bootstrap/MDB
 still loads some assets from a CDN; typography uses local system fonts.
 
 Design changes are in `_sass/_editorial.scss` and the about/header templates.
-The biography and the navigation labels and destinations are preserved. The design
+The biography and the publications/CV destinations are preserved. The design
 uses a light-only near-white/blue-teal palette, contact beneath the name, and a
 large unframed BattleBots photograph aligned with the biography. Body text is
 18px; contact/navigation are 15px and the footer is 13px. Saved dark-mode preferences are no longer applied. Name, contact, and navigation
-share one header. The three links are always visible, with a separate row below
-the contact on mobile; the header scrolls naturally with the page.
+share one header. The publications and CV links are always visible, with an external-link arrow
+and PDF label respectively. They sit below the contact on mobile; the header scrolls naturally with the page.
 
 ---
 

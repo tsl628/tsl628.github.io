@@ -81,13 +81,13 @@ body > .container { margin-top: 2rem !important; }
     text-decoration: none;
     &:hover { color: var(--global-hover-color); text-decoration: underline; }
   }
-  a[aria-current='page'] {
-    color: var(--global-text-color);
-    text-decoration: underline;
-    text-decoration-color: var(--global-theme-color);
-    text-underline-offset: .45em;
-    text-decoration-thickness: 1px;
+  .nav-external, .nav-format {
+    margin-left: .4rem;
+    color: var(--global-text-color-light);
   }
+  .nav-external { font-size: .9em; }
+  .nav-format { font-size: 10px; letter-spacing: .055em; }
+
 }
 
 .about-page {
