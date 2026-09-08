@@ -25,8 +25,9 @@ still loads some assets from a CDN; typography uses local system fonts.
 
 Design changes are in `_sass/_editorial.scss` and the about/header templates.
 The biography and the navigation labels and destinations are preserved. The design
-uses a light-only cream/blue-teal palette, contact beneath the name, and a larger
-framed BattleBots photograph. Saved dark-mode preferences are no longer applied.
+uses a light-only near-white/blue-teal palette, contact beneath the name, and a
+large unframed BattleBots photograph aligned with the biography. Body text is
+18px; contact/navigation are 15px and the footer is 13px. Saved dark-mode preferences are no longer applied.
 
 ---
 

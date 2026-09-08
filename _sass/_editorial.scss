@@ -1,13 +1,13 @@
 // Personal, editorial variation on the existing al-folio theme.
 :root {
   color-scheme: light;
-  --global-bg-color: #f8f3e8;
-  --global-text-color: #302b25;
-  --global-text-color-light: #736252;
+  --global-bg-color: #faf8f3;
+  --global-text-color: #242521;
+  --global-text-color-light: #53544f;
   --global-theme-color: #176779;
   --global-hover-color: #104956;
   --global-divider-color: #dacdb8;
-  --global-card-bg-color: #f8f3e8;
+  --global-card-bg-color: #faf8f3;
   --global-code-bg-color: #f0e7d8;
   --editorial-sans: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +15,7 @@
 
 body {
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
   -webkit-font-smoothing: auto;
@@ -45,7 +45,7 @@ body > .container { margin-top: 3.4rem !important; }
 
 .navbar.navbar-light {
   font-family: var(--editorial-sans);
-  font-size: .85rem;
+  font-size: 15px;
   .navbar-brand { font-family: Georgia, 'Times New Roman', serif; }
   .navbar-nav { align-items: center; gap: 1.3rem; }
   .navbar-nav .nav-item .nav-link {
@@ -70,7 +70,7 @@ body > .container { margin-top: 3.4rem !important; }
   .about-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 320px;
-    gap: 2.5rem;
+    gap: 28px;
     align-items: start;
   }
   .about-grid-text-only { grid-template-columns: minmax(0, 1fr); }
@@ -89,9 +89,6 @@ body > .container { margin-top: 3.4rem !important; }
     figure { margin: 0; }
     picture {
       display: block;
-      padding: 6px;
-      border: 1px solid var(--global-divider-color);
-      background: #eee3d0;
     }
     img {
       display: block;
@@ -103,7 +100,7 @@ body > .container { margin-top: 3.4rem !important; }
   .about-contact {
     margin-top: .65rem;
     font-family: var(--editorial-sans);
-    font-size: .85rem;
+    font-size: 15px;
     p { margin: 0; color: var(--global-text-color-light); }
   }
 }
@@ -113,7 +110,7 @@ footer.sticky-bottom {
   margin: 3rem auto 0 !important;
   padding: 1.2rem 0 2rem;
   font-family: var(--editorial-sans);
-  font-size: .72rem;
+  font-size: 13px;
   color: var(--global-text-color-light);
   .container { padding: 0; color: inherit; }
 }
