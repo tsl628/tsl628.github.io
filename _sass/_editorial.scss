@@ -4,8 +4,8 @@
   --global-bg-color: #f8f3e8;
   --global-text-color: #302b25;
   --global-text-color-light: #736252;
-  --global-theme-color: #88502e;
-  --global-hover-color: #64371f;
+  --global-theme-color: #176779;
+  --global-hover-color: #104956;
   --global-divider-color: #dacdb8;
   --global-card-bg-color: #f8f3e8;
   --global-code-bg-color: #f0e7d8;
@@ -92,14 +92,6 @@ body > .container { margin-top: 3.4rem !important; }
       padding: 6px;
       border: 1px solid var(--global-divider-color);
       background: #eee3d0;
-    }
-    .caption {
-      margin: .6rem 0 0;
-      font-family: var(--editorial-sans);
-      font-size: .75rem;
-      line-height: 1.5;
-      text-align: left;
-      color: var(--global-text-color-light);
     }
     img {
       display: block;

@@ -8,7 +8,6 @@ profile:
   align: right
   image: prof_pic_alt.jpg
   image_alt: Glitch competing at BattleBots
-  caption: Glitch at BattleBots
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>tslu (at) umich (dot) edu</p>
