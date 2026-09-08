@@ -1,13 +1,13 @@
 // Personal, editorial variation on the existing al-folio theme.
 :root {
   color-scheme: light;
-  --global-bg-color: #faf8f3;
+  --global-bg-color: #faf9f6;
   --global-text-color: #242521;
   --global-text-color-light: #53544f;
   --global-theme-color: #176779;
   --global-hover-color: #104956;
   --global-divider-color: #dacdb8;
-  --global-card-bg-color: #faf8f3;
+  --global-card-bg-color: #faf9f6;
   --global-code-bg-color: #f0e7d8;
   --editorial-sans: Arial, Helvetica, sans-serif;
 }
@@ -77,16 +77,13 @@ body > .container { margin-top: 2rem !important; }
     display: inline-flex;
     align-items: center;
     min-height: 44px;
-    color: var(--global-text-color-light);
-    text-decoration: none;
-    &:hover { color: var(--global-hover-color); text-decoration: underline; }
+    color: var(--global-theme-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .17em;
+    text-decoration-color: var(--global-divider-color);
+    &:hover { color: var(--global-hover-color); text-decoration-color: currentColor; }
   }
-  .nav-external, .nav-format {
-    margin-left: .4rem;
-    color: var(--global-text-color-light);
-  }
-  .nav-external { font-size: .9em; }
-  .nav-format { font-size: 10px; letter-spacing: .055em; }
 
 }
 
