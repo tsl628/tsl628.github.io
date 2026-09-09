@@ -6,7 +6,7 @@
     {{ site.title }}
   {%- endif -%}
 {%- endcapture -%}
-<header class="site-header">
+<header class="site-header{% if page.permalink == '/' and page.profile.image %} site-header-has-photo{% endif %}">
   <div class="site-identity">
     {% if page.permalink == '/' %}
       <h1 class="site-name">{{ site_name }}</h1>
@@ -24,4 +24,15 @@
     <a href="https://scholar.google.com/citations?user=ORDBRuMAAAAJ" target="_blank" rel="noopener" aria-label="Publications on Google Scholar (opens in a new tab)">publications</a>
     <a href="{{ '/assets/pdf/CV_ThomasLu-Sept26.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="CV, PDF (opens in a new tab)">cv</a>
   </nav>
+  {% if page.permalink == '/' and page.profile.image %}
+    <div class="site-header-photo">
+      {%- assign header_image_path = page.profile.image | prepend: 'assets/img/' -%}
+      {% include figure.html
+        path=header_image_path
+        alt=page.profile.image_alt
+        width=1749
+        height=1956
+        cache_bust=true %}
+    </div>
+  {% endif %}
 </header>

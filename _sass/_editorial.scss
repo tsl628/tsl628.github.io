@@ -48,6 +48,7 @@ body > .container { margin-top: 2rem !important; }
 }
 
 .site-identity { min-width: 0; }
+.site-header-photo { display: none; }
 .site-name {
   display: block;
   margin: 0;
@@ -152,4 +153,23 @@ footer.sticky-bottom {
   .site-name { font-size: 2.15rem; }
   .site-nav { padding-top: 0; }
   body > .container { margin-top: 1.75rem !important; }
+
+  .site-header-has-photo {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(80px, 26vw, 105px);
+    column-gap: 16px;
+    row-gap: .85rem;
+    .site-identity { grid-column: 1; grid-row: 1; overflow-wrap: anywhere; }
+    .site-nav { grid-column: 1; grid-row: 2; }
+    .site-header-photo {
+      display: block;
+      grid-column: 2;
+      grid-row: 1 / 3;
+      align-self: start;
+      figure { margin: 0; }
+      picture, img { display: block; width: 100%; }
+      img { height: auto; }
+    }
+  }
+  .about-page .profile { display: none; }
 }
