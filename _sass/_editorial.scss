@@ -167,8 +167,20 @@ footer.sticky-bottom {
       grid-row: 1 / 3;
       align-self: start;
       figure { margin: 0; }
-      picture, img { display: block; width: 100%; }
-      img { height: auto; }
+      picture {
+        display: block;
+        width: 100%;
+        aspect-ratio: 15 / 16;
+        overflow: hidden;
+      }
+      // Enlarge both robots while trimming the empty floor and left arena edge.
+      img {
+        display: block;
+        width: 136%;
+        max-width: none;
+        height: auto;
+        margin-left: -33%;
+      }
     }
   }
   .about-page .profile { display: none; }
