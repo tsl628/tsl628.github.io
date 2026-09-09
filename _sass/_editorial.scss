@@ -37,9 +37,9 @@ body > .container { margin-top: 2rem !important; }
 
 .site-header {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 2rem;
+  gap: .45rem;
   width: calc(100% - 48px);
   max-width: calc(#{$max-content-width} - 48px);
   margin: 3.6rem auto 0;
@@ -71,7 +71,7 @@ body > .container { margin-top: 2rem !important; }
   display: flex;
   flex-wrap: wrap;
   gap: 0 24px;
-  padding-top: .35rem;
+  padding-top: 0;
   font-family: var(--editorial-sans);
   font-size: 15px;
   a {

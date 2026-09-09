@@ -1,6 +1,6 @@
 # Local editorial preview
 
-This branch contains a personal-site design mockup. Start Docker Desktop, then
+To preview the personal-site design locally, start Docker Desktop, then
 run these commands from this worktree in PowerShell:
 
 ```powershell
@@ -26,11 +26,14 @@ still loads some assets from a CDN; typography uses local system fonts.
 Design changes are in `_sass/_editorial.scss` and the about/header templates.
 The biography and the publications/CV destinations are preserved. The design
 uses a light-only near-white/blue-teal palette, contact beneath the name, and a
-large unframed BattleBots photograph aligned with the biography. Body text is
+large unframed BattleBots photograph aligned with the biography on desktop.
+On mobile, a tighter crop around both robots sits beside the name/contact/links.
+Body text is
 18px; contact/navigation are 15px and the footer is 13px. Saved dark-mode preferences are no longer applied. Name, contact, and navigation
 share one header. The publications and CV links are always visible and use neutral text with
 matching underlines, without icons or format labels. Prose links use blue text
-and matching blue underlines. They sit below the contact on mobile; the header scrolls naturally with the page.
+and matching blue underlines. Publications and CV sit below the contact at all
+screen sizes; the header scrolls naturally with the page.
 
 ---
 
