@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <text x="50" y="84" font-size="88" text-anchor="middle">⚛</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>TL — upright serif</title>
+  <rect width="64" height="64" rx="12" fill="#586b6b"/>
+  <g fill="#faf9f6" transform="translate(-3 -1.5)">
+    <path d="M10 15h37v9h-2l-2-6H31v31l3 1v2H20v-2l5-1V18H14l-2 6h-2z"/>
+    <path d="M36 27h15v2l-5 1v19h9l3-6h2l-2 9H36v-2l4-1V30l-4-1z"/>
+  </g>
 </svg>
