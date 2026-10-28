@@ -98,6 +98,11 @@ body > .container { margin-top: 2rem !important; }
   .about-grid-text-only { grid-template-columns: minmax(0, 1fr); }
   .about-copy { min-width: 0; }
   .about-copy > p { margin: 0 0 1.25rem; }
+  .current-projects {
+    margin-bottom: 1.25rem;
+    summary { cursor: pointer; color: var(--global-theme-color); }
+    p { margin: .75rem 0 0; }
+  }
   .about-copy a {
     text-decoration: underline;
     text-decoration-thickness: 1px;
