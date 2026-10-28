@@ -24,7 +24,7 @@ I did my undergraduate work at UC Berkeley, where I was very fortunate to have b
 
 <details class="current-projects">
   <summary>Current projects</summary>
-  <p>I'm currently exploring how AI systems can learn to reason about mathematics using formal verification and reinforcement learning. My work broadly focuses on training models to construct proofs and use feedback from formal tools to improve their reasoning. I'm also interested in AI safety and alignment, including how verifiable reasoning might help make AI systems more reliable.</p>
+  <p>I'm currently exploring how AI systems can learn to reason about mathematics using formal verification and reinforcement learning. My current project trains models to propose and refine proof steps in conjunction with automated reasoning tools such as satisfiability modulo theories (SMT) solvers, with the goal of making automated proof search more reliable. Recently, I've also become interested in AI safety and alignment, particularly how to evaluate and constrain autonomous agents in light of <a href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents">recent reports of misalignment during cybersecurity evaluations</a>.</p>
 </details>
 
 I was also part of [Combat Robotics at Berkeley](https://combatrobotics.studentorg.berkeley.edu/), the team that designs and builds Glitch, a 250-pound battlebot. We competed in World Championships VI and VII on the [BattleBots TV Show](https://battlebots.com/), and won Rookie of the Year on our debut in World Championship VI.
